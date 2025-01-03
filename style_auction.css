@@ -1,0 +1,671 @@
+/* Reset some default styles */
+body, h2, p, form, input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container for the form */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Inputs, selects, and textareas */
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="date"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* File input styling */
+.form-group input[type="file"] {
+    padding: 3px;
+}
+
+/* Checkbox styling */
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Submit button styling */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+
+/* General styles for the admin dashboard */
+.admin-dashboard-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.admin-section {
+    margin-bottom: 30px;
+}
+
+.admin-section h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+}
+
+.admin-dashboard-link {
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+    background: linear-gradient(135deg, #6B73FF 0%, #22673d 100%);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    /* transition: background0.3s ease; */
+}
+
+.admin-dashboard-link:hover {
+    background: linear-gradient(135deg, #5A62FF 0%, #22673d 100%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* General styles for the custom form */
+.custom-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.custom-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.custom-form-group {
+    margin-bottom: 15px;
+}
+
+.custom-form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.custom-form-group input[type="text"],
+.custom-form-group input[type="number"],
+.custom-form-group input[type="date"],
+.custom-form-group input[type="file"],
+.custom-form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.custom-form-group input[type="text"]:focus,
+.custom-form-group input[type="number"]:focus,
+.custom-form-group input[type="date"]:focus,
+.custom-form-group input[type="file"]:focus,
+.custom-form-group textarea:focus {
+    border-color: #007BFF;
+}
+
+.custom-form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.custom-form-group img {
+    display: block;
+    margin-top: 10px;
+}
+
+.custom-form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-form-group button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Styles for edit category form */
+.edit-category-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-category-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.edit-category-container .form-group {
+    margin-bottom: 15px;
+}
+
+.edit-category-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.edit-category-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.edit-category-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.edit-category-container button:hover {
+    background: #0056b3;
+}
+
+
+/* Styles for item details page */
+.item-details-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-details-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.item-details-container .category-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.item-details-container .category-bar span {
+    margin: 0 10px;
+    padding: 8px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item-details-container .item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-details-container .item h3 {
+    margin-bottom: 10px;
+}
+
+.item-details-container .item p {
+    margin-bottom: 8px;
+}
+
+.item-details-container .item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+/* General styles for the login page */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-form-group {
+    margin-bottom: 15px;
+}
+
+.login-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-form-group input[type="email"],
+.login-form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-form-group button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form-group button[type="submit"]:hover {
+    background: #0056b3;
+}
+
+.login-role-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login-role-options label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-role-options input[type="radio"] {
+    margin-right: 5px;
+}
+
+
+/* Styles for managing auction items */
+.manage-auction-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.manage-auction-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.manage-auction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.manage-auction-table th,
+.manage-auction-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.manage-auction-table th {
+    background-color: #f2f2f2;
+}
+
+.manage-auction-table td img {
+    max-width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.manage-auction-table td.actions {
+    text-align: center;
+}
+
+.manage-auction-table td.actions a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.manage-auction-table td.actions a:hover {
+    color: #0056b3;
+}
+
+
+
+
+
+/* Custom styling for FotHeBay navigation bar */
+.custom-navbar {
+    background-color: #22673d;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.custom-navbar .custom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.custom-navbar .custom-navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.custom-navbar .custom-nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.custom-navbar .custom-nav-links li {
+    margin-right: 20px;
+}
+
+.custom-navbar .custom-nav-links li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .custom-nav-links li a:hover {
+    color: #ccc;
+}
+
+.custom-navbar .custom-search-form {
+    display: flex;
+    align-items: center;
+}
+
+.custom-navbar .custom-search-form input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.custom-navbar .custom-search-form button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-navbar .custom-search-form button[type="submit"]:hover {
+    background-color: #004499;
+}
+
+.custom-navbar .custom-user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.custom-navbar .custom-user-actions a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-navbar .custom-user-actions a:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+/* Styles for the auction items */
+.auction-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auction-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.auction-container .items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.auction-container .item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.auction-container .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.auction-container .item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.auction-container .item p {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.auction-container .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.auction-container .buttons form,
+.auction-container .buttons button {
+    flex: 1;
+}
+
+.auction-container .buttons button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auction-container .buttons button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .auction-container .items {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+/* Styles specific to the registration form */
+.custom-form-container {
+    margin-top: 20px; /* Adjust spacing as needed */
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.custom-form-container form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.custom-form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.custom-form-container input[type="text"],
+.custom-form-container input[type="number"],
+.custom-form-container input[type="email"],
+.custom-form-container input[type="password"],
+.custom-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.custom-form-container input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-form-container input[type="submit"]:hover {
+    background: #0056b3;
+}
